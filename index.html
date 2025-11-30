@@ -18,8 +18,60 @@
       src="https://kit.fontawesome.com/e658e3932e.js"
       crossorigin="anonymous"
     ></script>
+    <!-- -- GOGGLE FONT -- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style -- -->
+    <style>
+      .font {
+        font-family: "Sora", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+    </style>
   </head>
   <body>
-    
+    <!-- bismillah -->
+    <header class="shadow-sm">
+      <nav class="max-w-7xl mx-auto px-4">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <img
+              src="./Logo.png"
+              class="lg:w-1/4 w-4/5 cursor-pointer"
+              alt=""
+            />
+          </div>
+          <div class="navbar-center">
+            <button class="btn btn-active font">Sort by view</button>
+          </div>
+          <div class="navbar-end">
+            <button
+              class="relative px-6 py-3 font-semibold text-white rounded-xl overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-lg transition-all duration-300 hover:shadow-[0_0_20px_rgba(255,0,255,0.5)] hover:scale-105"
+            >
+              <span
+                class="absolute inset-0 bg-white/20 blur-lg opacity-0 transition-opacity duration-300 hover:opacity-30"
+              >
+              </span>
+
+              <span class="relative z-10">blog</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <nav id="catagoryContainer" class="justify-center flex gap-3 my-5">
+        <div>
+          <button class="btn btn-sm font bg-[#FF1F3D] text-white">all</button>
+        </div>
+      </nav>
+    </section>
+    <!-- -- SCRIPT -- -->
+    <script src="./script/index.js"></script>
   </body>
 </html>
