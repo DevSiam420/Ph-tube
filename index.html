@@ -32,6 +32,10 @@
         font-optical-sizing: auto;
         font-style: normal;
       }
+      .active {
+        background: #ff1f3d;
+        color: white;
+      }
     </style>
     <title>PH-Tube</title>
   </head>
@@ -69,17 +73,29 @@
     <section>
       <nav id="catagoryContainer" class="justify-center flex gap-3 my-5">
         <div>
-          <button onclick="loadVidios()" class="btn btn-sm font bg-[#FF1F3D] text-white">all</button>
+          <button
+            onclick="loadVidios()"
+            class="btn btn-sm font bg-[#FF1F3D] text-white"
+          >
+            all
+          </button>
         </div>
       </nav>
     </section>
 
     <!-- VIDEO SECTION -->
-     <section class="grid lg:grid-cols-4 grid-cols-1 gap-3 lg:mx-5 mx-2" id="videoContainer">
-
-     </section>
+    <section
+      class="grid justify-center lg:grid-cols-4 grid-cols-1 gap-3 lg:mx-5 mx-2"
+      id="videoContainer"
+    >
+      <div class="col-span-full flex flex-col items-center text-center mt-20">
+        <img class="w-30" src="./Icon.png" alt="" />
+        <p class="font-bold text-3xl text-gray-500 m-4">
+          Oops!! Sorry, There is no content here
+        </p>
+      </div>
+    </section>
     <!-- -- SCRIPT -- -->
     <script src="./script/index.js"></script>
   </body>
 </html>
-
